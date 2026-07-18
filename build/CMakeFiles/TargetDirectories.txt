@@ -1,0 +1,3 @@
+/home/zee/Desktop/Code/C++/Minecraft World Runner/build/CMakeFiles/main.dir
+/home/zee/Desktop/Code/C++/Minecraft World Runner/build/CMakeFiles/edit_cache.dir
+/home/zee/Desktop/Code/C++/Minecraft World Runner/build/CMakeFiles/rebuild_cache.dir
