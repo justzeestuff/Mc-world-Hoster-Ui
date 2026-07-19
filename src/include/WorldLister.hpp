@@ -7,7 +7,7 @@ std::vector<fs::path> WorldLister(){
     std::vector<fs::path> dirs = {};
     fs::path path = "/home/zee/Desktop/McServer";    
 
-    int i = 1;
+    int i = 0;
     for(const auto& item : fs::directory_iterator(path)){
         i++;
         std::cout << i << '.' << item.path().filename() << '\n';
