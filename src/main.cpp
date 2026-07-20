@@ -37,8 +37,10 @@ int main(){
             std::stringstream cmd;
 
             fs::current_path(worldPath);
-            cmd << "java -Xms" << min <<"G -Xmx" << max <<"G -jar server.jar nogui";
-
+            
+            cmd << "java -Xmx" << max << "G -Xms" << min
+                <<"G @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.4.21/unix_args.txt";
+            
             std::system(cmd.str().c_str());
         }
     }
