@@ -2,8 +2,6 @@
 #include <cstdlib>
 
 #include "include/include.hpp"
-#include "include/world/List.hpp"
-#include "include/world/Start.hpp"
 
 namespace fs = std::filesystem;
 
